@@ -101,8 +101,6 @@ log_data = log_data[log_data != -np.inf]
 len(log_data)
 log_data = log_data.dropna(axis=0, how="any")
 len(log_data)
-#Checking that the -inf values are really gone
-min(log_data.average_submitted_chrg_amt)
 
 #Plotting with colors based on provider_type
 provider_lst = list(log_data.provider_type)
