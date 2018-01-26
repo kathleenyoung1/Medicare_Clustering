@@ -95,7 +95,7 @@ log_data = top_4_data[["average_submitted_chrg_amt",
 log_data = np.log(log_data)
 #Adding the provider type back in for reference
 log_data['provider_type'] = top_4_data.provider_type
-log_data = pd.DataFrame({'log_data':top_4_data.provider_type})
+#log_data = pd.DataFrame({'log_data':top_4_data.provider_type})
 #Dropping -inf and NA values from the dataframe caused by log and checking lengths
 log_data = log_data[log_data != -np.inf]
 len(log_data)
