@@ -1,0 +1,42 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct  6 2017, 12:04:38)\
+Type "copyright", "credits" or "license" for more information.\
+\
+IPython 6.1.0 -- An enhanced Interactive Python.\
+\
+runfile('/Users/kathleenyoung/Desktop/Winter 2018/IEMS 308 Data Science/HW1/KathleenYoungHW1.py', wdir='/Users/kathleenyoung/Desktop/Winter 2018/IEMS 308 Data Science/HW1')\
+/Users/kathleenyoung/Desktop/Winter 2018/IEMS 308 Data Science/HW1/KathleenYoungHW1.py:1: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.\
+  #!/usr/bin/env python3\
+/Users/kathleenyoung/Desktop/Winter 2018/IEMS 308 Data Science/HW1/KathleenYoungHW1.py:43: RuntimeWarning: divide by zero encountered in log\
+  plt.hist(np.log(average_Medicare_payment_amt), bins=100, range = (-10,10))\
+\{'Radiation Oncology', 'Pathology', 'Geriatric Medicine', 'Preventive Medicine', 'Cardiac Electrophysiology', 'Geriatric Psychiatry', 'Unknown Supplier/Provider', 'Hematology/Oncology', 'Allergy/Immunology', 'Maxillofacial Surgery', 'Orthopedic Surgery', 'Otolaryngology', 'Clinical Psychologist', 'Certified Clinical Nurse Specialist', 'Neurosurgery', 'Nuclear Medicine', 'Cardiac Surgery', 'Cardiology', 'Physical Medicine and Rehabilitation', 'Portable X-ray', 'Optometry', 'Medical Oncology', 'Pharmacy', 'Pulmonary Disease', 'Physical Therapist', 'Mammographic Screening Center', 'Registered Dietician/Nutrition Professional', 'Critical Care (Intensivists)', 'Independent Diagnostic Testing Facility', 'Unknown Physician Specialty Code', 'Vascular Surgery', 'Psychiatry', 'Neuropsychiatry', 'Gynecological/Oncology', 'Ophthalmology', 'Sports Medicine', 'Nurse Practitioner', 'Surgical Oncology', 'Hand Surgery', 'Rheumatology', 'General Surgery', 'Addiction Medicine', 'Clinical Laboratory', 'Ambulance Service Supplier', 'Sleep Medicine', 'CRNA', 'Interventional Cardiology', 'Slide Preparation Facility', 'Obstetrics/Gynecology', 'Plastic and Reconstructive Surgery', 'Thoracic Surgery', 'Oral Surgery (dentists only)', 'Certified Nurse Midwife', 'Anesthesiology', 'Licensed Clinical Social Worker', 'General Practice', 'Hospice and Palliative Care', 'Gastroenterology', 'Anesthesiologist Assistants', 'Speech Language Pathologist', 'Occupational therapist', 'Emergency Medicine', 'Chiropractic', 'Urology', 'Osteopathic Manipulative Medicine', 'Interventional Radiology', 'Psychologist (billing independently)', 'Dermatology', 'Neurology', 'Peripheral Vascular Disease', 'Audiologist (billing independently)', 'Radiation Therapy', 'Diagnostic Radiology', 'Public Health Welfare Agency', 'Hematology', 'Pain Management', 'Family Practice', 'Colorectal Surgery (formerly proctology)', 'Podiatry', 'Pediatric Medicine', 'Internal Medicine', 'Interventional Pain Management', 'Mass Immunization Roster Biller', 'Infectious Disease', 'Centralized Flu', 'All Other Suppliers', 'Physician Assistant', 'Multispecialty Clinic/Group Practice', 'Endocrinology', 'Ambulatory Surgical Center', 'Nephrology'\}\
+Counter(\{'Diagnostic Radiology': 1222851, 'Internal Medicine': 1170216, 'Family Practice': 972638, 'Cardiology': 458508, 'Nurse Practitioner': 418189, 'Orthopedic Surgery': 309610, 'Physician Assistant': 306141, 'Ophthalmology': 240288, 'Anesthesiology': 227378, 'Emergency Medicine': 225408, 'Physical Therapist': 223583, 'Dermatology': 198511, 'Podiatry': 191277, 'Urology': 185347, 'Gastroenterology': 173276, 'Hematology/Oncology': 169136, 'General Surgery': 160756, 'Optometry': 154906, 'Pathology': 149828, 'Pulmonary Disease': 144718, 'Neurology': 133009, 'Clinical Laboratory': 126182, 'Nephrology': 109068, 'Obstetrics/Gynecology': 107513, 'CRNA': 107003, 'Mass Immunization Roster Biller': 104496, 'Otolaryngology': 97708, 'Psychiatry': 86975, 'Physical Medicine and Rehabilitation': 84418, 'Radiation Oncology': 75950, 'Rheumatology': 69968, 'Vascular Surgery': 60888, 'Centralized Flu': 57062, 'Ambulatory Surgical Center': 54176, 'Endocrinology': 53367, 'Medical Oncology': 52443, 'Interventional Cardiology': 51516, 'Cardiac Electrophysiology': 50387, 'Chiropractic': 49188, 'General Practice': 46234, 'Neurosurgery': 42374, 'Infectious Disease': 38191, 'Interventional Radiology': 37298, 'Interventional Pain Management': 36542, 'Independent Diagnostic Testing Facility': 36192, 'Pain Management': 33760, 'Ambulance Service Supplier': 33399, 'Clinical Psychologist': 32082, 'Allergy/Immunology': 28516, 'Licensed Clinical Social Worker': 27573, 'Plastic and Reconstructive Surgery': 23920, 'Critical Care (Intensivists)': 21781, 'Geriatric Medicine': 20211, 'Hand Surgery': 19859, 'Occupational therapist': 19275, 'Audiologist (billing independently)': 19145, 'Thoracic Surgery': 17970, 'Cardiac Surgery': 14272, 'Colorectal Surgery (formerly proctology)': 13035, 'Sports Medicine': 8800, 'Pediatric Medicine': 8654, 'Portable X-ray': 8565, 'Gynecological/Oncology': 7901, 'Nuclear Medicine': 7730, 'Hematology': 7720, 'Certified Clinical Nurse Specialist': 7190, 'Surgical Oncology': 5391, 'Osteopathic Manipulative Medicine': 4683, 'Unknown Physician Specialty Code': 4109, 'Hospice and Palliative Care': 4038, 'Anesthesiologist Assistants': 3784, 'Registered Dietician/Nutrition Professional': 3107, 'Oral Surgery (dentists only)': 2691, 'All Other Suppliers': 2501, 'Sleep Medicine': 1970, 'Preventive Medicine': 1786, 'Maxillofacial Surgery': 1704, 'Speech Language Pathologist': 1519, 'Multispecialty Clinic/Group Practice': 1257, 'Peripheral Vascular Disease': 1165, 'Public Health Welfare Agency': 1135, 'Geriatric Psychiatry': 1088, 'Neuropsychiatry': 973, 'Certified Nurse Midwife': 968, 'Addiction Medicine': 670, 'Radiation Therapy': 583, 'Psychologist (billing independently)': 513, 'Unknown Supplier/Provider': 76, 'Mammographic Screening Center': 51, 'Slide Preparation Facility': 48, 'Pharmacy': 10\})\
+/Users/kathleenyoung/Desktop/Winter 2018/IEMS 308 Data Science/HW1/KathleenYoungHW1.py:87: RuntimeWarning: divide by zero encountered in log\
+  plt.plot(np.log(average_submitted_chrg_amt_top_4), np.log(average_Medicare_payment_amt_top_4), 'ro')\
+/Users/kathleenyoung/Desktop/Winter 2018/IEMS 308 Data Science/HW1/KathleenYoungHW1.py:97: RuntimeWarning: divide by zero encountered in log\
+  log_data = np.log(log_data)\
+3824187\
+3824187\
+\
+\
+-4385003.58744\
+-3065594.8986\
+-2167872.97318\
+-1790740.27188\
+-1480645.14266\
+-1249276.85342\
+-1108798.0801\
+-1005724.68508\
+-909602.312745\
+\
+\
+0.390320000905\
+\
+\
+}
