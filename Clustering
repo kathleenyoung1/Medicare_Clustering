@@ -10,6 +10,9 @@ Copyright 2018
 
 Solve a clustering problem using the Medicare Provider Utilization Payment
 Public Use File database.
+
+The file can be found here:
+https://data.cms.gov/use-agreement?id=sk9b-znav&name=Medicare%20Provider%20Utilization%20and%20Payment%20Data:%20Physician%20and%20Other%20Supplier%20PUF%20CY2015
 """
 #Importing necessary packages
 import numpy as np
