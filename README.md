@@ -1,3 +1,4 @@
-# Medicare Clustering Project for IEMS 308
+# IEMS 308 HW1: Medicare clustering project
+### Kathleen Young
 
-This project clustered medicare services.
+This repository contains all of the necessary files for the medicare data clustering assignment. These files include:
