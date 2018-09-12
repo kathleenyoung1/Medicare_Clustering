@@ -1,2 +1,3 @@
-# kathleen_young_hw1
-hw1
+# Medicare Clustering Project for IEMS 308
+
+This project clustered medicare services.
